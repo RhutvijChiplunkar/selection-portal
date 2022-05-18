@@ -1,0 +1,23 @@
+.navbar-all a {
+    color: rgb(61, 180, 135);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px;
+    padding-block: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar-all a:hover{
+    color: rgb(45, 160, 154);
+}
+
+.navbar-all a:after {
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar-all a:hover:after {
+    width: 100%;
+    left: 0;
+}

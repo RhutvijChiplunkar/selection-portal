@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    background: rgb(13, 30, 37);
+    background-color: #26272b;
+    color: #737373;
+  }
+  
+  .footer h1 {
+      font-size: 40px;
+    padding-block: 20px;
+    color: cadetblue;
+  }
+  
+  .footer h3 {
+    padding-bottom: 20px;
+    color: rgb(132, 135, 136);
+  }
+  
+  .footer table {
+    width: 100%;
+    padding-inline: 20px;
+    text-align: justify;
+  }
+  
+  .footer th {
+    padding: 10px;
+    padding-inline: 40px;
+    color: white;
+  }
+  
+  .footer table td {
+    width: 30%;
+    padding: 10px;
+    padding-inline: 40px;
+    margin-block: 5px;
+    vertical-align: top;
+  }
+  
+  .footer td div {
+    margin-bottom: 10px;
+  }
+  
+  .footer table a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

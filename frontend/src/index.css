@@ -1,0 +1,13 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  align-items: center;
+}
+body{
+  font-family: "Noto Serif";
+  background-color: whitesmoke !important;
+  color: black;
+}

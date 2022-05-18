@@ -1,0 +1,84 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.base {
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.mainHeading {
+  font-size: xx-large;
+  padding: 30px;
+}
+
+.container {
+  border: 1px black solid;
+  padding: 30px;
+}
+
+.job-type {
+  text-align: left;
+  justify-items: left;
+  align-items: left;
+  font-size: large;
+}
+
+.profile-for {
+  text-align: left;
+  font-size: large;
+  justify-content: right;
+  justify-items: right;
+}
+
+.company-logo {
+  text-align: right;
+  align-items: right;
+}
+
+.basic-details,.work,.open {
+  text-align: left;
+}
+
+.company-description,
+.skills {
+  text-align: left;
+}
+
+#requirements {
+  text-align: left;
+}
+
+.round_tabs_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.round_tabs {
+    background: rgb(221, 221, 221);
+    color: black;
+    padding: 10px 12px;
+    border-radius: 14px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    line-height: 16px;
+    /* font-size: large; */
+
+}
+
+.round_tabs{
+    box-shadow: 0px 0px #111;
+    opacity: 0.75;
+    cursor: pointer;
+  
+}
+
+.section_heading
+{
+    padding:10px;
+}
+
+.btn:hover
+{
+    background-color: blue;
+}
