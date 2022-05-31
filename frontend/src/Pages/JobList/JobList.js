@@ -11,7 +11,7 @@ const JobList = () => {
     return (
 
         <div className="joblist">
-            <h2 className="title1">Currently available jobs</h2>
+            
             <div className="cont">
                 <div className="cd">
                     <div
