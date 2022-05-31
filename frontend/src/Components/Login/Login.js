@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Login = () => {
     return (
         <div className="login-forms">
-            <h1>Campus Selection Platform</h1>
-            <br />
             <Form>
                 <h2 className="title">Login</h2>
                 <hr />

@@ -20,7 +20,7 @@ const JobList = () => {
                             <h3 className="mb-0">Google</h3>
                             <h2 className="card-text mb-auto">Frontend Developer: React.js</h2>
                             <h2 className="loc"><i className="fa fa-map-marker"></i> Bengaluru, Karnataka</h2>
-                            <Link to="/JobDetails"><Button>See details</Button></Link>
+                            <Link to="/jobdetails"><Button>See details</Button></Link>
                         </div>
                         <div className="col-auto d-none d-lg-block">
                             <img className="bd-placeholder-img " width="300" height="250"
@@ -35,7 +35,7 @@ const JobList = () => {
                             <h3 className="mb-0">Microsoft</h3>
                             <h2 className="card-text mb-auto">Backend Developer: Node.js</h2>
                             <h2 className="loc"><i className="fa fa-map-marker"></i> Pune, Maharashtra</h2>
-                            <Link to="/JobDetails"><Button>See details</Button></Link>
+                            <Link to="/jobdetails"><Button>See details</Button></Link>
                         </div>
                         <div className="col-auto d-none d-lg-block">
                             <img className="bd-placeholder-img" width="300" height="250"
@@ -50,7 +50,7 @@ const JobList = () => {
                             <h3 className="mb-0">Amazon</h3>
                             <h2 className="card-text mb-auto">Frontend Developer: Angular.js</h2>
                             <h2 className="loc"><i className="fa fa-map-marker"></i>Mumbai, Maharashtra</h2>
-                            <Link to="/JobDetails"><Button>See details</Button></Link>
+                            <Link to="/jobdetails"><Button>See details</Button></Link>
                         </div>
                         <div className="col-auto d-none d-lg-block">
                             <img className="bd-placeholder-img" width="300" height="250"
@@ -66,7 +66,7 @@ const JobList = () => {
                             <h3 className="mb-0">Adobe</h3>
                             <h2 className="card-text mb-auto">Database engineer: My-SQL</h2>
                             <h2 className="loc"><i className="fa fa-map-marker"></i>Hydrabad, Andhra Pradesh</h2>
-                            <Link to="/JobDetails"><Button>See details</Button></Link>
+                            <Link to="/jobdetails"><Button>See details</Button></Link>
                         </div>
                         <div className="col-auto d-none d-lg-block">
                             <img className="bd-placeholder-img" width="300" height="250"

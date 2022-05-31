@@ -14,36 +14,52 @@ import JobDetailsPage from "./Pages/JobDetails/JobDetails";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      
 
       <Switch>
         <Route exact path="/">
           <Login />
         </Route>
-        <Route exact path="/Signup">
+        <Route exact path="/signup">
           <Signup />
         </Route>
-        <Route path="/Home">
+        <Route path="/home">
+        <NavBar />
           <Home />
+          <Foooter />
         </Route>
+
         <Route path="/apply">
+        <NavBar />
           <ApplyForm />
+          <Foooter />
         </Route>
-        <Route path="/JobList">
+
+        <Route path="/joblist">
+        <NavBar />
           <JobList />
+          <Foooter />
         </Route>
-        <Route path="/JobDetails">
+
+        <Route path="/jobdetails">
+        <NavBar />
           <JobDetailsPage />
+          <Foooter />
         </Route>
-        <Route path="/ContactUs">
+
+        <Route path="/contactus">
+        <NavBar />
           <ContactUs />
+          <Foooter />
         </Route>
+
         <Route path="*">
           <NotFound />
         </Route>
+
       </Switch>
 
-      <Foooter />
+      
     </div>
   );
 }

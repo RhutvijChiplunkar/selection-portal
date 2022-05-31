@@ -17,9 +17,9 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink exact to="/Home">Home</NavLink>
-              <NavLink exact to="/JobList">Jobs</NavLink>
-              <NavLink exact to="/ContactUs">Contact Us</NavLink>
+              <NavLink exact to="/home">Home</NavLink>
+              <NavLink exact to="/joblist">Jobs</NavLink>
+              <NavLink exact to="/contactus">Contact Us</NavLink>
             </Nav>
             <Nav className="right-logout">
               <NavLink exact to='/'>Logout</NavLink>
