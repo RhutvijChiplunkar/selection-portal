@@ -6,8 +6,6 @@ import './Signup.css';
 const Signup = () => {
     return (
         <div className="signup-forms">
-            <h1>Campus Selection Platform</h1>
-            <br />
             <Form>
                 <h2 className="title">Signup</h2>
                 <hr />
