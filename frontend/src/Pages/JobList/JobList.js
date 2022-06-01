@@ -1,6 +1,7 @@
 import { Button } from 'react-bootstrap';
 import './JobList.css';
 import {Link} from "react-router-dom";
+import React from 'react';
 import logo from "../../Assets/images/google.png";
 import logo1 from "../../Assets/images/microsoft.png";
 import logo2 from "../../Assets/images/amazon.png";

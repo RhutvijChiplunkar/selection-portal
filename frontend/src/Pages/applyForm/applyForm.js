@@ -1,4 +1,5 @@
 import "./applyForm.css";
+import React from "react";
 
 const details = [
   {
