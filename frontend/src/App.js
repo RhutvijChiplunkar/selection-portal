@@ -6,7 +6,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import JobList from "./Pages/JobList/JobList";
 import Home from "./Pages/Home/home";
 import ApplyForm from "./Pages/applyForm/applyForm";
-import NavBar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Foooter from "./Components/Footer/Foooter";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import JobDetailsPage from "./Pages/JobDetails/JobDetails";
@@ -23,31 +23,31 @@ function App() {
             <Signup />
           </Route>
           <Route path="/home">
-            <NavBar />
+            <Navbar />
             <Home />
             <Foooter />
           </Route>
 
           <Route path="/apply">
-            <NavBar />
+            <Navbar />
             <ApplyForm />
             <Foooter />
           </Route>
 
           <Route path="/joblist">
-            <NavBar />
+            <Navbar />
             <JobList />
             <Foooter />
           </Route>
 
           <Route path="/jobdetails">
-            <NavBar />
+            <Navbar />
             <JobDetailsPage />
             <Foooter />
           </Route>
 
           <Route path="/contactus">
-            <NavBar />
+            <Navbar />
             <ContactUs />
             <Foooter />
           </Route>
