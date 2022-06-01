@@ -7,13 +7,11 @@ const Home = () => {
   return (
     <>
       <Container>
-        <Row>
-          <Col><h1>Made easy to find your Dream Job <br />Explore all campus jobs in one place &amp; get the job of your dream.</h1></Col>
+        <Row className="row">
+          <Col><h1 className="head">Made easy to find your Dream Job <br />Explore all campus jobs in one place &amp; get the job of your dream.</h1></Col>
           <Col><img src={HomeImage} className="home-img"/></Col>
-          
         </Row>
       </Container>
-      
       
       
       {/* <div className="home">
@@ -111,6 +109,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
+      
     </>
   );
 };

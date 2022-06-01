@@ -1,15 +1,23 @@
+.navbar-all{
+    background-color: #4FA5D8;
+}
+
 .navbar-all a {
-    color: rgb(61, 180, 135);
+    /* color: rgb(61, 180, 135); */
+    color: navy;
     font-size: 1.5rem;
     text-decoration: none;
     padding: 10px;
-    padding-block: 20px;
+    padding-block: 10px;
     font-weight: bold;
     display: inline-block;
 }
 
 .navbar-all a:hover{
-    color: rgb(45, 160, 154);
+    /* color: rgb(45, 160, 154); */
+    color: navy;
+    opacity: 0.8;
+    text-decoration: underline 2px solid black;
 }
 
 .navbar-all a:after {

@@ -9,8 +9,8 @@ const NavBar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="dark"
-        variant="dark"
+       /*  bg="dark"
+        variant="dark" */
         className="nb py-0"
       >
         <Container fluid>
