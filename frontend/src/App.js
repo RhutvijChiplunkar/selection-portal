@@ -11,18 +11,25 @@ import Navbar from "./Components/Navbar/Navbar";
 import Foooter from "./Components/Footer/Foooter";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import JobDetailsPage from "./Pages/JobDetails/JobDetails";
+import Test from "./Components/Landing/test";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          {/* <Route exact path="/">
             <Login />
           </Route>
+          
           <Route exact path="/signup">
             <Signup />
+          </Route> */}
+
+          <Route exact path="/">
+            <Test />
           </Route>
+
           <Route path="/home">
             <Navbar />
             <Home />
@@ -51,6 +58,11 @@ function App() {
             <Navbar />
             <ContactUs />
             <Foooter />
+          </Route>
+
+
+          <Route path="/test">
+            <Test/>
           </Route>
 
           <Route path="*">
