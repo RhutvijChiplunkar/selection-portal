@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Container>
         <Row className="row">
-          <Col><h1 className="head">Made easy to find your Dream Job <br />Explore all campus jobs in one place &amp; get the job of your dream.</h1></Col>
+          <Col><h1 className="head1">Made easy to find your Dream Job </h1><br /><h3 className="head2">Explore all campus jobs in one place &amp; get the job of your dream.</h3></Col>
           <Col><img src={HomeImage} className="home-img"/></Col>
         </Row>
       </Container>

@@ -4,12 +4,16 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.head {
+.head1 {
+  color: navy;
+}
+
+.head2 {
   color: navy;
 }
 
 .home-img {
-  width: 60%;
+  width: 70%;
 }
 
 .container{
