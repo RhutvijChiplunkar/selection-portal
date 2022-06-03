@@ -12,6 +12,7 @@ import Foooter from "./Components/Footer/Foooter.js";
 import ContactUs from "./Pages/ContactUs/ContactUs.js";
 import JobDetailsPage from "./Pages/JobDetails/JobDetails.js";
 import Test from "./Components/Landing/test.js";
+import Internship from "./Pages/Internship/internship";
 
 function App() {
   return (
@@ -45,6 +46,12 @@ function App() {
           <Route path="/joblist">
             <Navbar />
             <JobList />
+            <Foooter />
+          </Route>
+
+          <Route path="/internship">
+            <Navbar />
+            <Internship />
             <Foooter />
           </Route>
 
