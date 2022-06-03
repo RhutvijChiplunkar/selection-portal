@@ -77,9 +77,9 @@ const JobDetailsPage = () => {
         <div className="skills">
             <div className="section_heading heading_5_5"><b>Skill(s) required</b></div>   
             <div className="round_tabs_container">
-                        <span className="round_tabs"><b>JavaScript</b></span>
-                        <span className="round_tabs"><b>MEAN/MERN Stack</b></span>
-                        <span className="round_tabs"><b>ReactJS</b></span>
+                    <span className="round_tabs"><b>JavaScript</b></span>
+                    <span className="round_tabs"><b>MEAN/MERN Stack</b></span>
+                    <span className="round_tabs"><b>ReactJS</b></span>
                 </div>
         </div>
 

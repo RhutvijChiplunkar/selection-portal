@@ -1,21 +1,30 @@
 * {
   margin: 0px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+     /* font-family: Open Sans,sans-serif;
+     font-weight: bolder; */
+} 
 
-.head1 {
+.head1, .head2 {
   color: navy;
 }
 
-.head2 {
-  color: navy;
-}
 
 .home-img {
   width: 100%;
 }
 
+.com-img
+{
+  height: 80;
+  width: 125px;
+}
+
+.sub-headings
+{
+  margin-left: 40px;
+}
 .container{
   border: none;
   outline: none;
