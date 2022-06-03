@@ -2,16 +2,16 @@ import "./App.css";
 import Login from "./Components/Login/Login";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
-import Signup from "./Components/Signup/Signup";
-import NotFound from "./Components/NotFound/NotFound";
-import JobList from "./Pages/JobList/JobList";
-import Home from "./Pages/Home/home";
-import ApplyForm from "./Pages/applyForm/applyForm";
-import Navbar from "./Components/Navbar/Navbar";
-import Foooter from "./Components/Footer/Foooter";
-import ContactUs from "./Pages/ContactUs/ContactUs";
-import JobDetailsPage from "./Pages/JobDetails/JobDetails";
-import Test from "./Components/Landing/test";
+import Signup from "./Components/Signup/Signup.js";
+import NotFound from "./Components/NotFound/NotFound.js";
+import JobList from "./Pages/JobList/JobList.js";
+import Home from "./Pages/Home/home.js";
+import ApplyForm from "./Pages/applyForm/applyForm.js";
+import Navbar from "./Components/Navbar/Navbar.js";
+import Foooter from "./Components/Footer/Foooter.js";
+import ContactUs from "./Pages/ContactUs/ContactUs.js";
+import JobDetailsPage from "./Pages/JobDetails/JobDetails.js";
+import Test from "./Components/Landing/test.js";
 
 function App() {
   return (

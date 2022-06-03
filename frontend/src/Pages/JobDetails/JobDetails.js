@@ -10,7 +10,7 @@ const JobDetailsPage = () => {
           Frontend Development work from home job/internship at Google
         </strong>
       </div>
-      <div className="container">
+      <div className="container-jobdet">
 
         <div className="row">
           <div className="col job-type">

@@ -37,9 +37,9 @@ function Test() {
               </Components.GhostButton>
             </Components.LeftOverlayPanel>
             <Components.RightOverlayPanel signingIn={signIn}>
-              <Components.Title>Hello, Friend!</Components.Title>
+              <Components.Title>Welcome, Engineer!</Components.Title>
               <Components.Paragraph>
-                Enter your personal details and start journey with us
+                Enter your personal details and start your hiring journey with us
               </Components.Paragraph>
               <Components.GhostButton onClick={() => toggle(false)}>
                 Sign Up

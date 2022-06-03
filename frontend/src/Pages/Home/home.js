@@ -8,8 +8,8 @@ const Home = () => {
     <>
       <Container>
         <Row className="row">
-          <Col><h1 className="head1">Made easy to find your Dream Job </h1><br /><h3 className="head2">Explore all campus jobs in one place &amp; get the job of your dream.</h3></Col>
-          <Col><img src={HomeImage} className="home-img"/></Col>
+          <Col xs={6} md={8}><h1 className="head1">Made easy to find your Dream Job </h1><h4 className="head2">Explore all campus jobs in one place &amp; get the job of your dream.</h4></Col>
+          <Col xs={6} md={4}><img src={HomeImage} className="home-img"/></Col>
         </Row>
       </Container>
       
