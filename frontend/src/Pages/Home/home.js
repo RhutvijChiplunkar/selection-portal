@@ -26,7 +26,7 @@ import persistant from "../../Assets/images/persistant.png";
 import phone from "../../Assets/images/phone.png";
 import pubmatic from "../../Assets/images/pubmatic.png";
 import symantec from "../../Assets/images/symantec.png";
-
+import Slider from "../../Components/SlidingCards/Slider.js"
 const ColoredLine = ({ color }) => (
   <hr
       style={{
@@ -54,6 +54,8 @@ const Home = () => {
       </Container>
       
       <ColoredLine color="black" />
+
+      <Slider/>
 
       <h2 className="sub-headings">Top Recruiters</h2>
       <Container>
