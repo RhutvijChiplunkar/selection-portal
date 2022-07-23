@@ -2,7 +2,8 @@ import { Button } from 'react-bootstrap';
 import './internship.css';
 import { Link } from "react-router-dom";
 import React from 'react';
-import {Card,CardGroup} from 'react-bootstrap'
+import { Card, CardGroup, Container, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap'
+import cybage from "../../Assets/images/cybage.png";
 import logo from "../../Assets/images/google.png";
 import logo1 from "../../Assets/images/microsoft.png";
 import logo2 from "../../Assets/images/amazon.png";
@@ -12,9 +13,9 @@ const Internship = () => {
 
     return (
 
-        <div className="joblist">
+        <div className="internship">
 
-                        <div className="cont">
+            <div className="cont">
                 <div className="cd">
                     <div
                         className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -41,7 +42,7 @@ const Internship = () => {
                         </div>
                         <div className="col-auto d-none d-lg-block">
                             <img className="bd-placeholder-img" width="300" height="250"
-                               src={logo1} alt="" />
+                                src={logo1} alt="" />
                         </div>
                     </div>
                 </div>
@@ -60,8 +61,8 @@ const Internship = () => {
                         </div>
                     </div>
                 </div>
-                
-               <div className="cd">
+
+                <div className="cd">
                     <div
                         className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div className="col p-4 d-flex flex-column position-static">
@@ -76,7 +77,7 @@ const Internship = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );

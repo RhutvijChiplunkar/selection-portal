@@ -1,7 +1,7 @@
 .wrapper {
     height: 100vh;
     background: #000;
-    background: url("https://i.imgur.com/g63vXfd.jpg");
+    background: url("../../Assets/cubg.jpg");
     background-size: cover;
     width: 100%;
     overflow-x: hidden;
@@ -9,10 +9,8 @@
 
 .overlay {
     width: 100%;
-    height: 100vh;
-    /* max-height: max-content; */
     background: rgba(0, 0, 0, 0.6);
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .contact-us {

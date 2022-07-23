@@ -1,23 +1,26 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-.joblist img{
+.internship img{
     float: left;
 }
-.joblist h1{
+.internship h1{
     padding-top: auto;
     font-size: 2rem;
 }
+/* .internship .row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.internship .card{
+    margin-top: 4%;
+    background-color: darkturquoise;
+} */
 .cd{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightskyblue;
-    /* border-right:3px solid black;
-    border-left:3px solid black;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black; */
-    
+    background-color: lightskyblue;    
 }
 .cd h3{
     color: darkblue;
