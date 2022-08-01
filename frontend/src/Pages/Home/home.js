@@ -45,7 +45,7 @@ const Home = () => {
         <Row className="row">
           <Col xs={6} md={8}>
             <h1 className="head1">Made easy to find your Dream Job </h1>
-            <h4 className="head2">Explore all campus jobs in one place &amp; get the job of your dream.</h4>
+            <h4 className="head2">Explore all campus jobs and internships at one place &amp; get the job of your dream.</h4>
           </Col>
           <Col xs={6} md={4}>
             <img src={HomeImage} className="home-img"/>
@@ -57,6 +57,8 @@ const Home = () => {
 
       <Slider/>
 
+      <ColoredLine color="black" />
+      
       <h2 className="sub-headings">Top Recruiters</h2>
       <Container>
         <Row>
