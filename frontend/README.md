@@ -3,24 +3,24 @@
 ### Home Page 
 
 ![](../Screenshots/Home_page1.PNG)
-![](Screenshots/Home_page2.PNG)
+![](../Screenshots/Home_page2.PNG)
 
 ### Login & Signup Page 
 
-![](Screenshots/LoginSignup.png)
+![](../Screenshots/LoginSignup.png)
 
 ### Jobs page
 
-![](Screenshots/Job.png)
+![](../Screenshots/Job.png)
 
 ### Job details page
 
-![](Screenshots/JobDetails.png)
+![](../Screenshots/JobDetails.png)
 
 ### Internships page
 
-![](Screenshots/Internships.png)
+![](../Screenshots/Internships.png)
 
 ### Contact Us page
 
-![](Screenshots/Contactus.png)
+![](../Screenshots/Contactus.png)
