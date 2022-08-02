@@ -108,7 +108,9 @@ const JobDetailsPage = () => {
             <div className="no">3</div>
         </div>
 
-        <button type="button" className="btn btn-success">Apply Now</button>
+        <a href="https://forms.gle/SyGWZacnsmaK429BA" target="_blank" without rel="noopener noreferrer">
+            <button type="button" className="btn btn-success">Apply Now</button>
+        </a>
       </div>
     </div>
   );
