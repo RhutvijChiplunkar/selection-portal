@@ -2,7 +2,7 @@
 
 ### Home Page 
 
-![](Screenshots/Home_page1.PNG)
+![](../Screenshots/Home_page1.PNG)
 ![](Screenshots/Home_page2.PNG)
 
 ### Login & Signup Page 
