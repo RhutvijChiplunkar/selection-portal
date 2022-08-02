@@ -7,20 +7,20 @@
 
 ### Login & Signup Page 
 
-![](../Screenshots/LoginSignup.png)
+![](../Screenshots/LoginSignup.PNG)
 
 ### Jobs page
 
-![](../Screenshots/Job.png)
+![](../Screenshots/Job.PNG)
 
 ### Job details page
 
-![](../Screenshots/JobDetails.png)
+![](../Screenshots/JobDetails.PNG)
 
 ### Internships page
 
-![](../Screenshots/Internships.png)
+![](../Screenshots/Internships.PNG)
 
 ### Contact Us page
 
-![](../Screenshots/Contactus.png)
+![](../Screenshots/Contactus.PNG)
