@@ -11,7 +11,7 @@
 
 ### Jobs page
 
-![](../Screenshots/Job.PNG)
+![](../Screenshots/Jobs.PNG)
 
 ### Job details page
 
